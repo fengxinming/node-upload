@@ -1,0 +1,27 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "\u0016create a demo for uploading files on nodejs",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxinming/node-upload.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "upload"
+  ],
+  "author": "fengxinming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengxinming/node-upload/issues"
+  },
+  "homepage": "https://github.com/fengxinming/node-upload#readme"
+}
