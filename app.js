@@ -24,7 +24,7 @@ router.post('/upload', (req, res, next) => {
   const files = [];
   const fields = [];
 
-  const uploadDir = Path.join(__dirname, '/data');
+  const uploadDir = conf.uploadDir;
   if (!fs.existsSync(uploadDir)) {
     fs.mkdirSync(uploadDir);
   }
